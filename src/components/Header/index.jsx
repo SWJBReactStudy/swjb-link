@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Logo from '../../asset/logo.png';
 
@@ -13,12 +14,20 @@ const Container = styled.div`
 const Image = styled.img`
   height: 68px;
   cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 150ms ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 const Header = () => {
   return (
     <Container>
-      <Image src={Logo} alt="Logo" />
+      <Link to="/">
+        <Image src={Logo} alt="Logo" />
+      </Link>
     </Container>
   );
 };
