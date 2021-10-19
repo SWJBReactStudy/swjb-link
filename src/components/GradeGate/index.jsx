@@ -34,8 +34,8 @@ const ItemContainer = styled(Link)`
   max-width: 200px;
   min-width: 84px;
   min-height: 84px;
-  background-color: ${(props) => (props.bgColor ? props.bgColor : '#fff')};
-  border: 4px solid ${(props) => (props.bgColor ? props.bgColor : '#fff')};
+  background-color: ${(props) => (props.bgcolor ? props.bgcolor : '#fff')};
+  border: 4px solid ${(props) => (props.bgcolor ? props.bgcolor : '#fff')};
   border-radius: 5px;
 
   margin-right: 2vw;
@@ -68,13 +68,13 @@ const GradeGate = () => {
     <Container>
       <Title>프로젝트를 시청할 학년을 선택하세요.</Title>
       <ItemList>
-        <ItemContainer bgColor={'#22c1c3'} to="/content/1">
+        <ItemContainer bgcolor={'#22c1c3'} to="/content/1">
           1학년
         </ItemContainer>
-        <ItemContainer bgColor={'#ff6767'} to="/content/2">
+        <ItemContainer bgcolor={'#ff6767'} to="/content/2">
           2학년
         </ItemContainer>
-        <ItemContainer bgColor={'#ff8c54'} to="/content/3">
+        <ItemContainer bgcolor={'#ff8c54'} to="/content/3">
           3학년
         </ItemContainer>
       </ItemList>

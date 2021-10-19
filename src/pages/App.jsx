@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from './components/Header';
-import GradeGate from './components/GradeGate';
+import Header from '../components/Header';
+import GradeGate from '../components/GradeGate';
 
 const Container = styled.div`
+  overflow: hidden;
+`;
+
+const Content = styled.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -18,12 +22,12 @@ const Container = styled.div`
 
 const App = () => {
   return (
-    <>
+    <Container>
       <Header />
-      <Container>
+      <Content>
         <GradeGate />
-      </Container>
-    </>
+      </Content>
+    </Container>
   );
 };
 
