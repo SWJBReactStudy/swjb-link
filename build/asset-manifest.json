@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b65d4721.chunk.css",
+    "main.js": "/static/js/main.95eef0b2.chunk.js",
+    "main.js.map": "/static/js/main.95eef0b2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c9c427bc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c9c427bc.js.map",
+    "static/css/2.3475661d.chunk.css": "/static/css/2.3475661d.chunk.css",
+    "static/js/2.9575d28b.chunk.js": "/static/js/2.9575d28b.chunk.js",
+    "static/js/2.9575d28b.chunk.js.map": "/static/js/2.9575d28b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.3475661d.chunk.css.map": "/static/css/2.3475661d.chunk.css.map",
+    "static/css/main.b65d4721.chunk.css.map": "/static/css/main.b65d4721.chunk.css.map",
+    "static/js/2.9575d28b.chunk.js.LICENSE.txt": "/static/js/2.9575d28b.chunk.js.LICENSE.txt",
+    "static/media/healthStart.b46458cd.PNG": "/static/media/healthStart.b46458cd.PNG",
+    "static/media/indian.c86da415.PNG": "/static/media/indian.c86da415.PNG",
+    "static/media/molto.af44e441.PNG": "/static/media/molto.af44e441.PNG",
+    "static/media/one.d32ed228.PNG": "/static/media/one.d32ed228.PNG",
+    "static/media/sinamon.ff9b04fd.PNG": "/static/media/sinamon.ff9b04fd.PNG",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/startudy.00ab8aec.PNG": "/static/media/startudy.00ab8aec.PNG",
+    "static/media/swjb.0723c221.PNG": "/static/media/swjb.0723c221.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9c427bc.js",
+    "static/css/2.3475661d.chunk.css",
+    "static/js/2.9575d28b.chunk.js",
+    "static/css/main.b65d4721.chunk.css",
+    "static/js/main.95eef0b2.chunk.js"
+  ]
+}
