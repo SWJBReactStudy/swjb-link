@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
 import SlideItem from './SlideItem';
 import useProject from '../../hooks/useProject';
+import ProjectModal from '../Modal/ProjectModal';
 
 const Container = styled.div`
   margin: 0 auto;
@@ -20,18 +21,27 @@ const Slide = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
   };
-
+  const [isOpen, setIsOpen] = useState(false);
+  const [modalState, setModalState] = useState({});
   const project = useProject(1);
-  console.log(project);
+  const onClickItem = (p) => {
+    setIsOpen((prevState) => true);
+    setModalState((prevState) => p);
+  };
+
   return (
-    <Container>
-      Slide
-      <Slider {...settings}>
-        {project.map((p) => (
-          <SlideItem title={p.title} desc={p.desc} link={p.link} />
-        ))}
-      </Slider>
-    </Container>
+    <>
+      <Container>
+        Slide
+        <Slider {...settings}>
+          {project.map((p) => (
+            <SlideItem project={p} onClickItem={onClickItem} />
+          ))}
+        </Slider>
+      </Container>
+
+      <ProjectModal isOpen={isOpen} reqClose={() => setIsOpen((prevState) => false)} data={modalState} />
+    </>
   );
 };
 

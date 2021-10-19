@@ -4,14 +4,15 @@ import styled from 'styled-components';
 const Container = styled.div`
   width: 300px;
   text-align: center;
+  cursor: pointer;
 `;
 
-const SlideItem = ({ title, desc, link }) => {
+const SlideItem = ({ project, onClickItem }) => {
+  const { title, creater } = project;
   return (
-    <Container>
+    <Container onClick={() => onClickItem(project)}>
       <h3>{title}</h3>
-      <p>{desc}</p>
-      <button>{link}</button>
+      <p>{creater}</p>
     </Container>
   );
 };
