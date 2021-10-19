@@ -3,7 +3,7 @@
 > 리액트 기반의 동아리 프로젝트 관리 사이트
 
 ## 📌 프로젝트 소개
-
+https://swjbreactstudy.github.io/swjb-link/
 ### ⚙ 기술 스택
 
 저희 프로젝트는 Javascript, React라이브러리를 사용합니다.
