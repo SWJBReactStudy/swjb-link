@@ -5,7 +5,7 @@ import ContentPage from './pages/ContentPage';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={App} />
         <Route path="/content/:grade" component={ContentPage} />
