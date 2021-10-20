@@ -46,8 +46,8 @@ export const ProjectProvider = ({ children }) => {
         link: 'http://test.itsw.info/2',
         img: Indian,
       },
-      { title: '성철', creater: '성철', desc: '성철철철철성철철철철', link: 'http://test.itsw.info/1', img: One },
-      { title: '헬스타트', creater: 'Proteen', desc: '운동을 시작하는 당신에게 어울리는 프로젝트', link: 'http://test.itsw.info/6', img: Health },
+      { title: '스캐더', creater: '불꽃남자', desc: '대쉬보드 디자인을 활용하여 편의성을 고려한 인터페이스를 통해 더욱 간편하게 스케줄을 관리할 수 있습니다.', link: 'http://test.itsw.info/1', img: One },
+      { title: '헬스타트', creater: 'Proteen', desc: '운동을 시작하는 당신에게 어울리는 프로젝트, 자신만의 운동 루틴을 만들고, 서로 공유할 수 있는 사이트', link: 'http://test.itsw.info/6', img: Health },
     ],
   })[0];
 
