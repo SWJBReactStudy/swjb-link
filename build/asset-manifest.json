@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/swjb-link/static/css/main.b65d4721.chunk.css",
-    "main.js": "/swjb-link/static/js/main.d87f18e4.chunk.js",
-    "main.js.map": "/swjb-link/static/js/main.d87f18e4.chunk.js.map",
+    "main.js": "/swjb-link/static/js/main.9dc6530d.chunk.js",
+    "main.js.map": "/swjb-link/static/js/main.9dc6530d.chunk.js.map",
     "runtime-main.js": "/swjb-link/static/js/runtime-main.fbcfab41.js",
     "runtime-main.js.map": "/swjb-link/static/js/runtime-main.fbcfab41.js.map",
     "static/css/2.4c3b4f9e.chunk.css": "/swjb-link/static/css/2.4c3b4f9e.chunk.css",
@@ -14,6 +14,7 @@
     "static/js/2.b825a3c2.chunk.js.LICENSE.txt": "/swjb-link/static/js/2.b825a3c2.chunk.js.LICENSE.txt",
     "static/media/healthStart.b46458cd.PNG": "/swjb-link/static/media/healthStart.b46458cd.PNG",
     "static/media/indian.c86da415.PNG": "/swjb-link/static/media/indian.c86da415.PNG",
+    "static/media/logo.1aface81.png": "/swjb-link/static/media/logo.1aface81.png",
     "static/media/molto.af44e441.PNG": "/swjb-link/static/media/molto.af44e441.PNG",
     "static/media/one.d32ed228.PNG": "/swjb-link/static/media/one.d32ed228.PNG",
     "static/media/sinamon.ff9b04fd.PNG": "/swjb-link/static/media/sinamon.ff9b04fd.PNG",
@@ -26,6 +27,6 @@
     "static/css/2.4c3b4f9e.chunk.css",
     "static/js/2.b825a3c2.chunk.js",
     "static/css/main.b65d4721.chunk.css",
-    "static/js/main.d87f18e4.chunk.js"
+    "static/js/main.9dc6530d.chunk.js"
   ]
 }
