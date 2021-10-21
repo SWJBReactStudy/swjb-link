@@ -43,7 +43,7 @@ const Slide = ({ grade }) => {
     slidesToShow: project.length < 3 ? 1 : 3,
     speed: 500,
   };
-  console.log(project);
+
   const onClickItem = (p) => {
     setIsOpen((prevState) => true);
     setModalState((prevState) => p);
